@@ -1,0 +1,255 @@
+@charset  "utf-8";
+body{
+    
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+
+    }
+    .containe{
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F49E00;
+    }
+    header h1{
+        text-align: center;
+        color: #FFF;
+
+    }
+    header button{
+    margin: auto;
+    display: block;
+    height:40px;
+    width: 90%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #F49E00;
+    border: none;
+       
+    }
+    .f{
+        display:  none;
+        width: 100vw;
+        height: 200px;
+        background-color: #F49E00;
+        text-align: center;
+        color: #FFF;
+        transition: all ease .5s; 
+
+    }
+    .f input{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+        width: 200px;
+        height: 20px;
+        transition: all ease .5s
+        
+    }
+    .f button{
+        background-color: #1DD156;
+        color: #FFF;
+        width: 150px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    .area1{
+        display: flex;
+        width: 100vw;
+        height: 540px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+        url(v.webp);
+        background-size: cover;
+        background-position: center;
+        color: #FFF;
+    }
+    .area2{
+        display: block;
+        padding: 10px;
+    }
+    .b{
+        width: 70px;
+        height: 5px;
+        background-color: #F49E00;
+    }
+    .area2 h3{
+        font-size: 25px;
+        color:#F49E00;
+    }
+    .area2 h2{
+        font-size: 35px;
+        color:#F49E00;
+    }
+    .area2 button {
+        padding:  10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        background-color: #1DD156;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .p{
+        display: none;
+    }
+    .p input{
+        display: block;
+        margin-bottom: 10px;
+    }
+.area4{
+    text-align: center;
+    width: 100vw;
+    height: 200px;
+    
+}
+.area4 h1{
+    color: #F49E00;
+}
+.area4 p{
+    padding: 10px;
+}
+}
+@media screen and (min-width: 1001px){
+    body{
+        overflow-x: hidden;
+    }
+    .containe{
+        width: 100vw;
+        height:70px;
+        display: flex;
+        
+        background-color: #F49E00;
+    }
+    header h1{
+        text-align: center;
+        color: #FFF;
+        margin-left: 200px;
+
+    }
+    header{
+        display: flex;
+    }
+    header button{
+        margin-left: 400px;
+    
+    
+    margin-top: 20px;
+    height:40px;
+    width: 300px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #F49E00;
+    border: none;
+       
+}
+.f{
+    display:  none;
+    width: 100vw;
+    height: 250px;
+    background-color: #F49E00;
+    text-align: center;
+    color: #FFF;
+    transition: all ease .5s; 
+
+}
+.f input{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 30px;
+    transition: all ease .10s;
+    
+}
+.f button{
+    background-color: #1DD156;
+    color: #FFF;
+    width: 300px;
+    font-size: 27px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+.area1{
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(v.webp);
+    background-size: cover;
+    
+    color: #FFF;
+}
+.area2 h1{
+    font-size: 45px;
+}
+.area2{
+    display: block;
+    padding: 10px;
+    margin-left: 30px;
+    
+}
+.b{
+    width: 70px;
+    height: 5px;
+    background-color: #F49E00;
+}
+.area2 h3{
+    font-size: 35px;
+    color:#F49E00;
+}
+.area2 h2{
+    font-size: 45px;
+    color:#F49E00;
+}
+.area2 button {
+    padding:  10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1DD156;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.p{
+    display: none;
+}
+.p input{
+    width: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+.area4{
+    text-align: center;
+    width: 100vw;
+    height: 240px;
+    
+}
+.area4 h1{
+    color: #F49E00;
+    font-size: 40px;
+}
+.area4 p{
+    padding: 10px;
+    font-size: 30px;
+} }
